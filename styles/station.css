@@ -1,5 +1,8 @@
 html {
-	background-color: #ebf4fd;
+	background-image: url("../images/touhou.jpeg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
 }
 
 main {
@@ -17,11 +20,12 @@ section {
 	flex-direction: column;
 	right: 0%;
 	margin-left: 250px;
-	background-image: "../images/touhou.jpeg";
 }
 
 section h2 {
 	margin: 0 auto;
+	color: cyan;
+	font-family: "Open Sans", sans-serif;
 }
 
 section form {
@@ -33,7 +37,7 @@ section ul li {
 	margin: 0 auto;
 	height: 150px;
 	border: 1px solid #555;
-	color: rgb(69, 112, 231);
+	color: rgb(50, 221, 233);
 	font-size: 20px;
 	font-family: "Open Sans", sans-serif;
 	text-align: center;
