@@ -1,0 +1,90 @@
+html {
+	background-color: #ebf4fd;
+}
+
+main {
+	margin: 40pt auto;
+}
+
+a {
+	text-decoration: none;
+	font-size: 15pt;
+	color: rgb(209, 221, 36);
+}
+
+section {
+	display: flex;
+	flex-direction: column;
+	right: 0%;
+	margin-left: 250px;
+	background-image: "../images/touhou.jpeg";
+}
+
+section h2 {
+	margin: 0 auto;
+}
+
+section form {
+	margin: 0 auto;
+}
+
+section ul li {
+	display: block;
+	margin: 0 auto;
+	height: 150px;
+	border: 1px solid #555;
+	color: rgb(69, 112, 231);
+	font-size: 20px;
+	font-family: "Open Sans", sans-serif;
+	text-align: center;
+}
+
+section p:nth-child(1) {
+	border-top: #555;
+}
+
+aside {
+	margin: 0;
+	padding: 0;
+	width: 200px;
+	background-color: #f1f1f1;
+	top: 0%;
+	height: 100%; /* 全高 */
+	position: fixed; /* 使它产生粘性，即使在滚动时 */
+	overflow: auto; /* 如果侧栏的内容太多，则启用滚动条 */
+}
+
+aside h2 {
+	font-style: normal;
+	font-size: 20px;
+	text-align: center;
+	background-color: chartreuse;
+	color: rgb(89, 19, 201);
+	border-bottom: 1px solid #555;
+}
+
+aside ul {
+	width: 100%;
+	padding-left: 0;
+	list-style-type: none;
+}
+
+aside ul li {
+	width: 100%;
+	font-style: normal;
+	font-size: 20px;
+	color: rgb(28, 158, 218);
+	text-align: center;
+	border-bottom: 1px solid #555;
+}
+
+aside ul li:hover {
+	background-color: #555;
+	color: white;
+}
+
+footer {
+	clear: both;
+	text-align: center;
+	margin-left: 250px;
+}
