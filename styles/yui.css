@@ -50,8 +50,12 @@ nav li a {
 	background-color: azure;
 	border: 1px solid #df1cce;
 	border-radius: 3px;
-	color: royalblue;
+	color: rgb(240, 34, 240);
 	margin: 3px;
+}
+
+nav li a:hover {
+	background-color: rgb(71, 151, 221);
 }
 
 nav form {
